@@ -1,1 +1,20 @@
-Hola este es un archivo de texto común y corriente!!!
+FUncionamiento de un Repositorio
+
+- Todos los archivos que creemos, estan en el Espacio de Trabajo. SENTADOS
+- Agregamos esos archivos al repo local (staging). HACEMOS SUBIR AL ESCENARIO
+- Hacer un commit o confirmar los cambios en el repo local. SACAMOS LA FOTO.
+- Subir los cambios al repositorio en la nube (github). SUBIR 
+
+
+WORKSPACE    --> STAGING  --> LOCAL REPO --> REMOTE REPO
+
+mi pc/compu  --> add      --> commit     --> push
+
+1. Crear el repositorio LOCAL: git init 
+2. Chequear el estado de los archivos: git status
+3. Agregar al STAGING los archivos que quiero subir: git add .
+4. Confirmamos los cambios: git commit -m "un mensaje para que todos sepan de que trata el cambio"
+5. Subimos los cambios: git push origin master
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"

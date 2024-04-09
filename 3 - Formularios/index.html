@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <!-- Formularios -->
+    <form action="https://formspree.io/f/xgegnwlv" method="POST">
+      <!--Input = entrada de datos -->
+      <label for="nombre">Texto</label>
+      <input
+        type="text"
+        placeholder="Nombre"
+        minlength="3"
+        maxlength="10"
+        id="nombre"
+        name="nombre_usuario"
+      />
+      <br />
+      <label>
+        Contraseña
+        <input type="password" placeholder="Password" name="pass_usuario" />
+      </label>
+
+      <br />
+      <label>
+        Numero:
+        <input type="number" step="0.1" min="1" max="5" name="edad_usuario" />
+      </label>
+
+      <br />
+      <label>
+        Email:
+        <input type="email" placeholder="Email" name="correo" required />
+      </label>
+
+      <br />
+      <label
+        >Fecha:
+        <input type="date" name="fecha" />
+      </label>
+
+      <br />
+      <label
+        >Hora:
+        <input type="time" name="hora" />
+      </label>
+
+      <br />
+      <label
+        >File:
+        <input type="file" />
+      </label>
+
+      <br />
+      Color:
+      <input type="color" name="color" />
+
+      <br />
+      <label for=""
+        >Textarea:
+        <textarea cols="50" rows="10" name="texto"></textarea>
+      </label>
+
+      <br /><br />
+      <input type="checkbox" name="comida" /> Asado
+      <br />
+      <input type="checkbox" name="comida" /> Milanesa c/pure
+
+      <br /><br />
+      <input type="radio" name="sexo" /> Masculino
+      <br />
+      <input type="radio" name="sexo" /> Femenino
+      <br />
+      <input type="radio" name="sexo" />Otro <br /><br />
+      <input type="button" value="Guardar" />
+      <button type="button">Este es un botón</button>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
