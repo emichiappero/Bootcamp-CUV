@@ -85,3 +85,10 @@ mensaje (alert) que diga que puede consumir alcohol.
 Caso contrario, mostrar un mensaje que indique que es menor de edad.
 
 */
+
+if (conficion1) {
+  if (condicion2) {
+    algo;
+  }
+} else {
+}
